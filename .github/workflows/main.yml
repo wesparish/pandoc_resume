@@ -44,3 +44,11 @@ jobs:
             output/*.docx
             output/*.rtf
 
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            output/*.pdf
+            output/*.html
+            output/*.docx
+            output/*.rtf
