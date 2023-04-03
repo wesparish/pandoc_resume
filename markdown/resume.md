@@ -1,6 +1,6 @@
 Wes Parish
 ============
-> Wylie, TX | 817-845-8914 | wes.parish2023@elastiscale.net |
+> DFW, TX | wes.parish2023@elastiscale.net |
 > github.com/wesparish
 
 ----
