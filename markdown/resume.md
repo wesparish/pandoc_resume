@@ -1,6 +1,6 @@
 Wes Parish
 ============
-> DFW, TX | wes.parish2023@elastiscale.net |
+> DFW, TX | wes.parish2024@elastiscale.net |
 > github.com/wesparish
 
 ----
