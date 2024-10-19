@@ -28,21 +28,48 @@ Technical Skills
 **Programming / Scripting Languages**: Python, Bash, Ruby, C++, Java \
 **Virtualization / Cloud**: AWS/C2S, KVM, Cloudformation, VMware ESXi/vCenter,
 OpenStack \
-**Deployment Automation**: Ansible, Chef, Puppet, Terraform/Terragrunt \
+**Deployment Automation**: Ansible, Chef, Terraform/Terragrunt \
 **Container Orchestration**:  Kubernetes, Rancher, Docker \
 **Database**: MongoDB, RDS, Oracle, PostgreSQL, MySQL, SQLAlchemy, PsycoPG2 \
-**Logging / Metrics**: ELK, Splunk, Prometheus, Thanos, InfluxDB \
+**Logging / Metrics**: ELK, Splunk, Prometheus/Grafana, Thanos, InfluxDB \
 **Pipeline Tooling**: Artifactory/Xray, Jenkins, Atlassian Suite, JIRA,
 Gradle/Groovy, Git, GitLab CI \
 **Provisioning**: RedHat Satellite Server, MAAS, Kickstart, Preseed, PXE \
-**OS/Security**: RHEL, Ubuntu, Apache Guacamole, Keycloak, Fedora389,
-CA API Gateway
+**OS/Security**: RHEL, Ubuntu, MacOS, Apache Guacamole, Keycloak, Fedora389,
+CA API Gateway \
+**Homelab**: Two 42U racks with redundant power supplies, 10Gb interconnect,
+running K8s on bare-metal with Ceph storage and Tesla GPUs schedulable to K8s
+pods
 
 Professional Experience
 ----------
 
-**Insight Global | June 2016 – Current** \
-*Raytheon Intelligence and Space | System Architect and Developer | June 2016 – Current*
+**Topgolf | August 2023 - Current**\
+*Senior Architect, Platform Engineering*
+
+   - Architected, designed, and helped implement a revolutionary change to the
+   way games are delivered to the bay by deploying GPU-accelerated Unity games
+   via K8s pods. This resulted in a much simpler, more performant system that
+   saves millions of dollars a year in hardware and licenses over the legacy
+   design.
+   - Designed and implemented a horizontally-scalable, stateless, game launching
+   microservice used to launch K8s-based Unity games across 100+ bays
+   simultaneously
+   - Architected, designed, and helped implement a templatized instantiation of
+   the open-source semantic-release project to provide fully-automated releases
+   using trunk-based development with automatic semantic versioning, greatly
+   simplifying and speeding up the software development lifecycle
+   - Identified an inability to effectively update infrastructure (OS, software,
+   packages, etc.) at venues and designed a blue/green solution that extended
+   the existing Terraform deployments to provision parallel VM baselines. This
+   provided the ability to provision a parallel baseline, smoke-test, migrate
+   traffic, and cleanup the old baseline, allowing the move
+   from "pets to cattle" at the venues and the introduction of truly immutable
+   infrastructure.
+
+**Insight Global | June 2016 – August 2023** \
+*Raytheon Intelligence and Space | System Architect and Developer |
+June 2016 – Current*
 
    - Architected, designed, and helped implement a high-performance,
    large-scale, Kubernetes based, hybrid cloud system with 500+ bare-metal
