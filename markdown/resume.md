@@ -69,7 +69,7 @@ Professional Experience
 
 **Insight Global | June 2016 – August 2023** \
 *Raytheon Intelligence and Space | System Architect and Developer |
-June 2016 – Current*
+June 2016 – August 2023*
 
    - Architected, designed, and helped implement a high-performance,
    large-scale, Kubernetes based, hybrid cloud system with 500+ bare-metal
