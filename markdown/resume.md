@@ -33,7 +33,7 @@ OpenStack \
 **Database**: MongoDB, RDS, Oracle, PostgreSQL, MySQL, SQLAlchemy, PsycoPG2 \
 **Logging / Metrics**: ELK, Splunk, Prometheus/Grafana, Thanos, InfluxDB \
 **Pipeline Tooling**: Artifactory/Xray, Jenkins, Atlassian Suite, JIRA,
-Gradle/Groovy, Git, GitLab CI \
+Gradle/Groovy, Git, GitLab CI, Github, Github Actions \
 **Provisioning**: RedHat Satellite Server, MAAS, Kickstart, Preseed, PXE \
 **OS/Security**: RHEL, Ubuntu, MacOS, Apache Guacamole, Keycloak, Fedora389,
 CA API Gateway \

@@ -34,7 +34,7 @@ jobs:
           -c "cd /home/app/resume && ls -lrt && make pdf html docx rtf"
 
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v2.2.3
+        uses: actions/upload-artifact@v4
         with:
           # Artifact name
           name: Resume Artifacts # optional, default is artifact
